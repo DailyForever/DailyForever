@@ -1,0 +1,9 @@
+# ads.txt file for DailyForever
+# Add your AdSense publisher ID when approved
+
+# Google AdSense (replace with your actual publisher ID when approved)
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# Note: Replace the X's above with your actual AdSense publisher ID
+# Format: google.com, pub-YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
+

@@ -1,0 +1,110 @@
+# DailyForever Robots.txt
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Block sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /email/
+Disallow: /2fa/
+Disallow: /user/settings/
+Disallow: /user/profile/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /.env
+Disallow: /config/
+Disallow: /database/
+Disallow: /app/
+Disallow: /bootstrap/
+Disallow: /resources/
+Disallow: /routes/
+Disallow: /tests/
+Disallow: /*.sql
+Disallow: /*.log
+Disallow: /*.zip
+Disallow: /*.tar
+Disallow: /*.gz
+
+# Block view-once pastes and private content
+Disallow: /paste/*/edit
+Disallow: /paste/mine
+Disallow: /files/mine
+Disallow: /prekeys/
+
+# Allow specific important pages
+Allow: /how-it-works
+Allow: /faq
+Allow: /privacy
+Allow: /terms
+Allow: /blog/
+Allow: /roadmap
+Allow: /philosophy
+Allow: /paste/create
+Allow: /files/create
+
+# Crawl-delay for politeness (in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://dailyforever.com/sitemap.xml
+Sitemap: https://www.dailyforever.com/sitemap.xml
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /favicon.ico
+Allow: /android-chrome-512x512.png
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# Block AI/ML crawlers if you don't want content used for training
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /

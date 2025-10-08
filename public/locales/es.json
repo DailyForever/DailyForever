@@ -1,0 +1,975 @@
+{
+  "meta": {
+    "title": {
+      "home": "DailyForever - Pastebin y Compartir Archivos Cifrados | Plataforma Cero-Conocimiento",
+      "paste_create": "Crear Paste Cifrado Seguro | DailyForever",
+      "paste_show": "Paste Seguro | DailyForever",
+      "file_create": "Subir y Cifrar Archivos de Forma Segura | DailyForever",
+      "file_show": "Archivo Cifrado | DailyForever",
+      "login": "Inicio de Sesión Seguro | DailyForever",
+      "register": "Crear Cuenta - Únete a DailyForever | Plataforma Segura",
+      "how_it_works": "Cómo Funciona el Cifrado de Conocimiento Cero | DailyForever",
+      "faq": "Preguntas Frecuentes | Soporte DailyForever",
+      "privacy": "Política de Privacidad | DailyForever - Tus Datos Protegidos",
+      "terms": "Términos de Servicio | DailyForever",
+      "blog": "Blog - Consejos de Seguridad y Privacidad | DailyForever",
+      "dashboard": "Mi Panel | DailyForever",
+      "roadmap": "Hoja de Ruta del Producto | DailyForever",
+      "philosophy": "Nuestra Filosofía - Privacidad Primero | DailyForever"
+    },
+    "description": {
+      "home": "DailyForever es la plataforma más segura de pastebin cifrado y compartir archivos. Comparte texto y archivos con cifrado de conocimiento cero, seguridad de extremo a extremo y sin recopilación de datos.",
+      "paste_create": "Crea pastes cifrados con seguridad de grado militar. Tu contenido se cifra en el cliente antes de enviarse. Incluye protección por contraseña, fechas de expiración y vista única.",
+      "file_create": "Sube y comparte archivos de forma segura con cifrado de extremo a extremo. Archivos hasta 100MB cifrados en el cliente. La arquitectura de conocimiento cero garantiza que solo tú y tus destinatarios pueden descifrar.",
+      "how_it_works": "Aprende cómo el cifrado de conocimiento cero de DailyForever protege tus datos. Comprende el cifrado del lado del cliente, gestión de claves y por qué no podemos leer tu contenido.",
+      "faq": "Encuentra respuestas a preguntas comunes sobre el servicio de pastebin cifrado de DailyForever. Aprende sobre las funciones de seguridad, protección de privacidad y cómo usar nuestra plataforma.",
+      "privacy": "La política de privacidad de DailyForever explica nuestra arquitectura de conocimiento cero, política sin registros y compromiso con la protección de tus datos. Nunca rastreamos, monitoreamos o almacenamos tu contenido.",
+      "blog": "Mantente actualizado con los últimos consejos de seguridad, noticias de privacidad y actualizaciones de la plataforma de DailyForever. Aprende las mejores prácticas para comunicación segura y protección de datos.",
+      "roadmap": "Explora las próximas funciones y mejoras planeadas para DailyForever. Ve nuestro compromiso con mejoras continuas de seguridad y funciones solicitadas por usuarios.",
+      "philosophy": "Descubre la filosofía central de DailyForever: la privacidad es un derecho fundamental. Conoce nuestra misión de proporcionar herramientas de comunicación seguras y anónimas para todos."
+    }
+  },
+  "nav": {
+    "new_paste": "Nuevo paste seguro",
+    "new_file": "Nuevo archivo cifrado",
+    "prekeys": "Prekeys",
+    "how_it_works": "Cómo funciona",
+    "dashboard": "Panel",
+    "my_files": "Mis archivos",
+    "my_pastes": "Mis pastes",
+    "admin": "Admin",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar sesión"
+  },
+  "footer": {
+    "brand": {
+      "name": "DailyForever",
+      "tagline": "Seguro, Privado, Para Siempre",
+      "description": "Plataforma de intercambio cifrado de extremo a extremo"
+    },
+    "tagline": "Compartir pastes seguros",
+    "description": "Cifrado de extremo a extremo. Sin recopilación de datos. Protección total de la privacidad.",
+    "product": "Producto",
+    "learn": "Aprender",
+    "legal": "Legal",
+    "how_it_works": "Cómo funciona",
+    "roadmap": "Hoja de ruta",
+    "faq": "Preguntas frecuentes",
+    "blog": "Blog",
+    "support": "Soporte",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "cookies": "Cookies",
+    "acceptable_use": "Uso aceptable",
+    "no_logs": "Sin registros",
+    "dmca": "DMCA",
+    "philosophy": "Filosofía",
+    "e2e": "E2E",
+    "zk": "Cero‑conocimiento",
+    "no_data_collection": "Sin recopilación de datos"
+  },
+  "theme": {
+    "dark": "Oscuro",
+    "light": "Claro"
+  },
+  "aria": {
+    "menu_open": "Abrir menú de navegación",
+    "menu_close": "Cerrar menú de navegación"
+  },
+  "login": {
+    "hint_backup": "Código de respaldo detectado: esto cambiará después de iniciar sesión",
+    "hint_password": "Contraseña detectada: introduce la contraseña de tu cuenta",
+    "placeholder_srp": "Introduce tu contraseña para la autenticación SRP",
+    "placeholder_default": "Introduce tu contraseña o código de respaldo de 16 caracteres",
+    "srp_initiating": "Iniciando autenticación SRP...",
+    "srp_generating": "Generando prueba...",
+    "srp_failed_title": "Fallo en inicio de sesión SRP",
+    "unknown_error": "Error desconocido",
+    "srp_failed_try_again": "Por favor, inténtalo de nuevo o usa el inicio de sesión normal.",
+    "success_title": "¡Éxito!",
+    "notice_title": "Aviso",
+    "header_welcome": "Bienvenido de nuevo",
+    "header_subtitle": "Accede a tu espacio de trabajo seguro",
+    "username_label": "Usuario",
+    "username_placeholder": "Introduce tu usuario",
+    "srp_title": "Autenticación SRP",
+    "srp_desc": "Máxima seguridad: Tu contraseña nunca sale de tu dispositivo. Usa el protocolo SRP‑6a para autenticación de conocimiento cero.",
+    "password_or_code": "Contraseña o código de respaldo",
+    "input_hint_default": "Introduce tu contraseña o código de respaldo arriba",
+    "password_label": "Contraseña",
+    "backup_code_label": "Código de respaldo",
+    "sign_in": "Iniciar sesión",
+    "security_features": {
+      "title": "Funciones de seguridad",
+      "list": {
+        "e2e": "Cifrado de extremo a extremo para todos los datos",
+        "srp": "Autenticación SRP de conocimiento cero",
+        "recovery": "Opciones seguras de recuperación de contraseña",
+        "totp": "Compatibilidad con autenticación de dos factores"
+      }
+    },
+    "tip_text": "Consejo: Introduce tu contraseña normalmente, o pega un código de respaldo de 16 caracteres",
+    "recover_link": "¿Olvidaste tu PIN? Recupera tu cuenta",
+    "no_account": "¿No tienes una cuenta?",
+    "create_one": "Crea una aquí"
+  },
+  "common": {
+    "zk_e2e": "Cero‑conocimiento • Cifrado de extremo a extremo",
+    "privacy_desc": "Cifrado de conocimiento cero. Sin recopilación de datos. Protección total de la privacidad.",
+    "badges": {
+      "e2e": "Cifrado de extremo a extremo",
+      "zk": "Cero‑conocimiento"
+    },
+    "share_link_warning": "Tu enlace de compartición contiene la clave de descifrado después del #. Manténlo en privado.",
+    "security_pillars": "Cifrado de extremo a extremo • Conocimiento cero • Sin acceso del servidor al contenido",
+    "options": {
+      "title": "Opciones",
+      "expiration": "Expiración",
+      "never": "Nunca",
+      "1hour": "1 hora",
+      "1day": "1 día",
+      "1week": "1 semana",
+      "1month": "1 mes"
+    },
+    "password": {
+      "label_optional": "Contraseña (opcional)",
+      "placeholder_optional": "Proteger con una contraseña (opcional)",
+      "hint_optional": "Pista de contraseña (opcional)"
+    },
+    "view_policy": {
+      "label": "Política de vistas",
+      "multiple": "Permitir múltiples vistas",
+      "once": "Ver una vez (eliminar tras la primera vista)"
+    },
+    "share_url": "URL para compartir",
+    "share_link_never_leaves": "Tu enlace contiene la clave después del # y nunca sale de tu navegador.",
+    "identifier": "Identificador:",
+    "id_label": "ID:",
+    "content": "Contenido",
+    "progress": { "preparing": "Preparando…" },
+    "status": { "checking": "Comprobando…" },
+    "zkp": { "commitment": "Compromiso:" },
+    "qr": {
+      "scan_to_open": "Escanear para abrir",
+      "scan_to_download": "Escanear para descargar",
+      "use_camera": "Usa la cámara de tu teléfono para abrir el enlace"
+    },
+    "buttons": {
+      "copy": "Copiar",
+      "share": "Compartir",
+      "show_qr": "Mostrar QR",
+      "copy_id": "Copiar ID",
+      "close": "Cerrar",
+      "download_png": "Descargar PNG",
+      "open_link": "Abrir enlace",
+      "unlock": "Desbloquear",
+      "download": "Descargar",
+      "copy_json": "Copiar JSON",
+      "show_json": "Mostrar JSON",
+      "view": "Ver",
+      "edit": "Editar",
+      "verify": "Verificar",
+      "refresh": "Actualizar",
+      "generate_proof": "Generar prueba",
+      "decrypt": "Descifrar",
+      "copied": "¡Copiado!",
+      "delete": "Eliminar",
+      "cancel": "Cancelar"
+    }
+    ,
+    "misc": { "yes": "sí", "no": "no" },
+    "errors": { "request_failed": "La solicitud falló" },
+    "metrics": { "views": "vistas", "downloads": "descargas", "files": "archivos", "pastes": "pastes" },
+    "units": { "kb": "KB", "mb": "MB", "gb": "GB" },
+    "user": { "anonymous": "Anónimo" }
+  },
+  "editor": {
+    "editor": "Editor",
+    "wrap": "Ajustar",
+    "highlight": "Resaltar",
+    "no_wrap": "Sin ajuste"
+  },
+  "paste": {
+    "create": {
+      "hero_title": "Compartir pastes seguros. Privado por diseño.",
+      "badges": { "view_once": "Opción de una sola vista" },
+      "cta_create": "Crear paste seguro",
+      "section_title": "Crear paste seguro",
+      "section_desc": "Tu contenido se cifra en el cliente antes de enviarse. La arquitectura de conocimiento cero garantiza privacidad total.",
+      "placeholder": "Empieza a escribir o pega texto… Se cifrará antes de enviarse.",
+      "tip_shortcut": "Consejo: Pulsa Ctrl/⌘ + Enter para crear el paste",
+      "guest": {
+        "title": "Modo Invitado",
+        "message": "Estás creando un paste como invitado.",
+        "link": "Regístrate o inicia sesión para acceder a más funciones"
+      },
+      "password_note": "La contraseña opcional añade una capa extra de control de acceso",
+      "result": {
+        "title": "Paste creado correctamente",
+        "identifier_note": "Comparte este ID corto con soporte/admins para moderación. Nunca compartas la clave si quieres mantener el paste privado."
+      },
+      "recipient_label": "Destinatario (usuario, opcional)",
+      "recipient_placeholder": "Dejar vacío para usar modo solo enlace",
+      "recipient_note": "Si se establece, el paste se cifrará específicamente para este usuario. El servidor nunca ve tu contenido.",
+      "login_private": "Inicia sesión para crear pastes privados."
+    },
+    "show": {
+      "title": "Paste seguro",
+      "new_paste": "Nuevo paste",
+      "owner_decrypted": "Contenido descifrado (vista del propietario)",
+      "owner_encrypted": "Contenido cifrado (vista del propietario)",
+      "owner_note_label": "Nota del propietario:",
+      "owner_note_text": "Este es el contenido cifrado. Para descifrarlo, necesitas la clave de cifrado del enlace de compartición (la parte después de #).",
+      "enter_key_manually": "Introducir clave manualmente",
+      "use_share_url": "usar la URL de compartición con clave",
+      "decrypting": {
+        "title": "Descifrando contenido...",
+        "desc": "Espera mientras desciframos tu contenido en el cliente.",
+        "note": "Conocimiento cero: la clave se queda en tu fragmento de URL y nunca se envía al servidor."
+      },
+      "password_gate": {
+        "protected": "Este paste está protegido por contraseña.",
+        "placeholder": "Introduce la contraseña"
+      },
+      "error": {
+        "title": "Error de descifrado",
+        "desc1": "No se puede descifrar este paste. La clave puede faltar o ser inválida.",
+        "desc2": "Asegúrate de usar la URL completa, incluyendo el fragmento después de #",
+        "label": "Clave del paste (hex) para descifrar",
+        "note": "Es la parte después de # en la URL de compartición."
+      },
+      "attachments": {
+        "title": "Archivos cifrados",
+        "view_file": "Ver archivo",
+        "download_decrypt": "Descargar y descifrar"
+      }
+    }
+  ,
+    "edit": {
+      "title": "Editar paste",
+      "desc": "Edita tu paste cifrado. Los cambios se cifrarán en el cliente antes de guardarse.",
+      "placeholder": "Pega tu contenido aquí... Se cifrará antes de enviarse.",
+      "password_note": "Si se establece, la contraseña se verifica en el servidor (Argon2id). El contenido sigue siendo de extremo a extremo.",
+      "view_limit": { "label": "Límite de vistas", "placeholder": "Vistas máximas (opcional)" },
+      "private": { "label": "Hacer este paste privado", "help": "Los pastes privados solo son visibles para ti" },
+      "back_to_mine": "← Volver a Mis Pastes",
+      "buttons": { "update": "Actualizar paste", "updating": "Actualizando..." },
+      "errors": { "empty": "Por favor, introduce contenido.", "update_failed": "Error al actualizar el paste: " },
+      "confirm_cancel": "¿Seguro que quieres cancelar? Se perderán los cambios no guardados."
+    },
+    "mine": {
+      "title": "Mis pastes",
+      "doc_title": "Mis pastes - DailyForever",
+      "subtitle": "Gestiona tus pastes cifrados",
+      "create": "Crear nuevo paste",
+      "th": { "id": "ID", "identifier": "Identificador", "private": "Privado", "views": "Vistas", "limit": "Límite", "created": "Creado", "actions": "Acciones" },
+      "private": "Privado",
+      "public": "Público",
+      "manage": "Gestionar",
+      "reason": "Motivo",
+      "update": "Actualizar",
+      "takedown": "Retirar",
+      "limit": "Límite",
+      "apply": "Aplicar",
+      "no_pastes": "Aún no hay pastes",
+      "create_first_paste": "Crea tu primer paste para empezar",
+      "create_new_paste": "Crear nuevo paste",
+      "confirm_delete": "¿Eliminar este archivo? Esto no se puede deshacer.",
+      "confirm_delete_paste": "¿Seguro que quieres eliminar este paste? Esta acción no se puede deshacer.",
+      "delete_success": "¡Paste eliminado correctamente!",
+      "delete_error_prefix": "Error al eliminar el paste:",
+      "delete_error_generic": "Error desconocido",
+      "delete_error_retry": "Error al eliminar el paste. Inténtalo de nuevo."
+    },
+    "not_found": {
+      "title": "Paste no encontrado",
+      "doc_title": "Paste no encontrado - DailyForever",
+      "desc": "Este paste no existe, ha expirado o la URL está incompleta.",
+      "common": "Problemas comunes:",
+      "issue_expired": "• El paste ha expirado y se ha eliminado automáticamente",
+      "issue_missing_key": "• Falta el fragmento de clave de cifrado en la URL (parte después de #)",
+      "issue_mistyped": "• El ID del paste está mal escrito o corrupto",
+      "issue_never_created": "• El paste nunca se creó correctamente",
+      "create": "Crear nuevo paste",
+      "go_back": "← Volver"
+    }
+  },
+  "files": {
+    "create": {
+      "hero_tagline": "Compartir archivos seguros",
+      "hero_title": "Sube archivos cifrados. Privado por diseño.",
+      "cta_upload": "Subir archivo seguro",
+      "section_title": "Subir archivo seguro",
+      "section_desc": "Tu archivo se cifra en el cliente antes de subirse. La arquitectura de conocimiento cero garantiza privacidad total.",
+      "dropzone": {
+        "drag": "Arrastra un archivo aquí o explora tu dispositivo",
+        "limit": "Hasta 160 MB — Cifrado en el cliente • Conocimiento cero",
+        "browse": "Buscar archivos"
+      },
+      "field": { "file": "Archivo" },
+      "view_limit": {
+        "label": "Límite de vistas (opcional)",
+        "placeholder": "Número máximo de descargas",
+        "note": "El archivo se eliminará tras este número de descargas"
+      },
+      "download_url": "URL de descarga",
+      "result": {
+        "title": "Archivo subido correctamente",
+        "identifier_note": "Comparte este ID corto con soporte/admins para moderación. Nunca compartas la clave si quieres mantener el archivo privado."
+      },
+      "qr": { "scan_to_download": "Escanear para descargar" },
+      "recipient_username": "Usuario destinatario (opcional)",
+      "username_placeholder": "usuario",
+      "recipient_note": "Si se establece, la clave del archivo se envuelve al destinatario usando su preclave ML‑KEM para que pueda descargar sin la clave de la URL.",
+      "login_private": "Inicia sesión para crear archivos privados."
+    },
+    "show": {
+      "title": "Archivo cifrado",
+      "info": {
+        "filename": "Nombre de archivo:",
+        "size": "Tamaño:",
+        "downloads": "Descargas:",
+        "max": "Máx"
+      },
+      "kem": {
+        "title": "Se requiere clave del destinatario",
+        "desc_part1": "Este archivo está dirigido usando",
+        "desc_part2": "Importa tu clave secreta ML‑KEM (base64) para el ID de clave",
+        "desc_part3": "para descargar sin una clave en la URL.",
+        "placeholder": "Pega tu clave secreta ML-KEM (base64)",
+        "save": "Guardar clave"
+      },
+      "zkp": { "title": "Prueba de conocimiento cero" },
+      "attachments": {
+        "encrypted_files": "Archivos cifrados",
+        "view_file": "Ver archivo",
+        "download_decrypt": "Descargar y descifrar"
+      }
+    },
+    "mine": {
+      "title": "Mis archivos",
+      "th": { "filename": "Nombre", "size": "Tamaño", "views": "Vistas", "limit": "Límite", "private": "Privado", "actions": "Acciones" },
+      "confirm_delete": "¿Eliminar este archivo? Esto no se puede deshacer."
+    }
+  },
+  "blog": {
+    "index": {
+      "title": "Blog",
+      "tagline": "Ideas de privacidad y seguridad. Conocimiento cero, cifrado y uso seguro.",
+      "search_label": "Buscar artículos",
+      "search_placeholder": "Buscar artículos...",
+      "read_article": "Leer artículo",
+      "no_results": "No hay artículos que coincidan con tu búsqueda."
+    },
+    "show": {
+      "breadcrumb": { "home": "Inicio", "blog": "Blog" },
+      "back_to_blog": "Volver al blog",
+      "copy_link": "Copiar enlace",
+      "copied": "¡Copiado!"
+    },
+  "twofa": {
+    "title": "Autenticación de dos factores",
+    "verify_title": "Verificación de dos factores",
+    "subtitle": "Introduce el código de 6 dígitos de tu app de autenticación",
+    "code_label": "Código de autenticación",
+    "placeholder": "123456",
+    "verify": "Verificar",
+    "back_to_login": "Volver al inicio de sesión"
+  },
+  "register": {
+    "success_title": "¡Éxito!",
+    "header_title": "Crea tu cuenta",
+    "header_subtitle": "Únete a DailyForever para pastes cifrados y seguros",
+    "username_label": "Usuario",
+    "username_placeholder": "Elige un nombre de usuario único",
+    "username_hint": "3-64 caracteres. Será visible para otros.",
+    "password_label": "Contraseña",
+    "password_placeholder": "Crea una contraseña fuerte",
+    "password_hint": "Al menos 8 caracteres. Usa una contraseña única y segura.",
+    "pin_label": "PIN (4-8 dígitos)",
+    "pin_placeholder": "Introduce un PIN de 4 a 8 dígitos",
+    "pin_hint": "Elige un PIN de 4-8 dígitos para acceso y recuperación rápida.",
+    "srp": {
+      "title": "Autenticación SRP",
+      "desc": "Activa SRP (Secure Remote Password). Tu contraseña nunca sale de tu dispositivo: solo se envían pruebas criptográficas al servidor."
+    },
+    "privacy": {
+      "title": "Privacidad y seguridad",
+      "text_prefix": "Al crear una cuenta, aceptas nuestros",
+      "terms": "Términos del servicio",
+      "and": "y",
+      "privacy": "Política de privacidad",
+      "text_suffix": "Tus datos se cifran con arquitectura de conocimiento cero."
+    },
+    "create_account": "Crear cuenta",
+    "have_account": "¿Ya tienes una cuenta?",
+    "sign_in_here": "Inicia sesión aquí"
+  },
+  "user": {
+    "dashboard": {
+      "title": "Panel",
+      "doc_title": "Panel - DailyForever",
+      "welcome": "Bienvenido de nuevo,",
+      "account_status": "Estado de la cuenta",
+      "status": { "active": "Activo" },
+      "stats": {
+        "total_pastes": "Pastes totales",
+        "active": "activos",
+        "files_uploaded": "Archivos subidos",
+        "used": "usados",
+        "this_week": "Esta semana",
+        "files": "archivos",
+        "security": "Seguridad"
+      },
+      "prekeys": { "title": "Prekeys", "available": "disponibles", "used": "usadas", "total": "totales" },
+      "quick": {
+        "title": "Acciones rápidas",
+        "create_paste": "Crear paste",
+        "create_paste_desc": "Compartir cifrado, conocimiento cero",
+        "upload_file": "Subir archivo",
+        "upload_file_desc": "Hasta 150MB, cifrado del lado del cliente",
+        "my_pastes": "Mis pastes",
+        "my_pastes_desc": "Ver y gestionar tus pastes",
+        "my_files": "Mis archivos",
+        "my_files_desc": "Gestiona tus archivos subidos",
+        "prekeys": "Prekeys",
+        "prekeys_desc": "Genera y gestiona claves de un solo uso"
+      },
+      "account": {
+        "title": "Gestión de cuenta",
+        "settings": "Configuración de la cuenta",
+        "settings_desc": "Contraseña, 2FA, preferencias de cifrado"
+      },
+      "recent_pastes": {
+        "title": "Pastes recientes",
+        "view_all": "Ver todo",
+        "empty_title": "Aún no hay pastes",
+        "empty_cta": "Crea tu primer paste"
+      },
+      "recent_files": {
+        "title": "Archivos recientes",
+        "view_all": "Ver todo",
+        "empty_title": "Aún no hay archivos",
+        "empty_cta": "Sube tu primer archivo"
+      },
+      "activity": {
+        "title": "Resumen de actividad",
+        "legend": { "pastes_created": "Pastes creados", "last_7_days": "Últimos 7 días" },
+        "summary": {
+          "total_pastes": "Pastes totales",
+          "daily_average": "Promedio diario",
+          "peak_day": "Día pico"
+        },
+        "empty": {
+          "title": "Sin actividad aún",
+          "desc": "Empieza a crear pastes para ver tus analíticas",
+          "cta": "Crea tu primer paste"
+        }
+      }
+    }
+  },
+  "prekeys": {
+    "index": {
+      "title": "Prekeys de un solo uso",
+      "subtitle": "Genera claves públicas ML‑KEM de un solo uso localmente. Las claves privadas nunca salen de tu navegador. Exporta e importa para mover dispositivos.",
+      "import_secrets": "Importar secretos",
+      "algorithm": "Algoritmo",
+      "alg": {"512": "ML-KEM-512", "768": "ML-KEM-768 (recomendado)", "1024": "ML-KEM-1024"},
+      "count_label": "Número de claves",
+      "generate_keys": "Generar claves",
+      "gen_hint": "Las claves se generan en tu navegador. Solo se suben claves públicas.",
+      "bundle_label": "Paquete de claves (JSON)",
+      "bundle_desc": "Pega o suelta un paquete de claves públicas para subir.",
+      "clear": "Limpiar",
+      "upload_public": "Subir públicas",
+      "export_secrets": "Exportar secretos",
+      "export_hint": "Exporta tus claves secretas a un archivo e impórtalas en otro dispositivo. Las claves se guardan en el almacenamiento local de tu navegador bajo claves como pq.prekeys.<kid>.sk.",
+      "status_title": "Estado de tus claves",
+      "available": "Disponibles",
+      "used": "Usadas",
+      "total": "Totales",
+      "recent_title": "Claves recientes",
+      "th": {"kid": "ID de clave", "alg": "Algoritmo", "status": "Estado", "created": "Creado"},
+      "empty": "Aún no hay claves. Genera arriba.",
+      "latest_10": "Mostrando las 10 últimas claves.",
+      "view_all": "Ver todas las claves"
+    },
+    "all": {
+      "title": "Todas las prekeys",
+      "subtitle": "Filtra, busca y realiza acciones en bloque sobre tus prekeys de un solo uso.",
+      "back": "Volver a prekeys",
+      "filters": {
+        "status": { "label": "Estado", "options": { "all": "Todas" } },
+        "alg": { "options": { "all": "Todos" } },
+        "search": "Buscar (ID de clave)",
+        "apply": "Aplicar filtros",
+        "reset": "Restablecer"
+      },
+      "bulk": {
+        "select_page": "Seleccionar página",
+        "mark_available": "Marcar como disponibles",
+        "mark_used": "Marcar como usadas",
+        "delete_selected": "Eliminar seleccionadas"
+      },
+      "table": { "select": "Seleccionar" },
+      "empty": "No hay claves que coincidan con tus filtros."
+    },
+    "modal": {
+      "title_import": "Importar claves privadas",
+      "subtitle_import": "Restaura claves desde un archivo de copia de seguridad",
+      "paste_json": "Pega JSON aquí, o suelta tu archivo exportado:",
+      "import": "Importar"
+    }
+  },
+  "support": {
+    "title": "Centro de soporte",
+    "subtitle": "Obtén ayuda, reporta problemas o contacta a nuestro equipo. Estamos aquí para ayudarte con cualquier duda o inquietud.",
+    "form": {
+      "title": "Enviar un reporte",
+      "report_type": "Tipo de reporte",
+      "type": {
+        "select": "Selecciona un tipo de reporte",
+        "dmca": "Aviso de retirada DMCA",
+        "abuse": "Reporte de abuso",
+        "general": "Soporte general",
+        "security": "Problema de seguridad",
+        "appeal": "Apelación de política"
+      },
+      "subject_label": "Asunto",
+      "subject_placeholder": "Descripción breve de tu problema",
+      "description_label": "Descripción",
+      "description_placeholder": "Por favor proporciona información detallada sobre tu problema...",
+      "email_label": "Email (opcional)",
+      "email_placeholder": "tu@email.com",
+      "email_help": "Lo usaremos para responder a tu reporte. Si no lo proporcionas, responderemos a través de esta página.",
+      "submit": "Enviar reporte"
+    },
+    "dmca": {
+      "title": "Información DMCA",
+      "identifier_label": "Identificador de paste/archivo",
+      "identifier_placeholder": "p. ej., aB3xK9",
+      "identifier_help": "El identificador de 6 caracteres del contenido que quieres reportar",
+      "work_label": "Obra con derechos de autor",
+      "work_placeholder": "Describe la obra con derechos que ha sido infringida",
+      "auth_label": "Declaración de autorización",
+      "auth_placeholder": "Creo de buena fe que el uso no está autorizado por el titular de los derechos...",
+      "contact_label": "Información de contacto",
+      "contact_placeholder": "Tu nombre completo, dirección, teléfono y correo"
+    },
+    "abuse": {
+      "title": "Información del reporte de abuso",
+      "identifier_label": "Identificador de paste/archivo",
+      "identifier_placeholder": "p. ej., aB3xK9",
+      "identifier_help": "El identificador de 6 caracteres del contenido que quieres reportar",
+      "type_label": "Tipo de violación",
+      "type_select": "Selecciona el tipo de violación",
+      "types": {
+        "illegal": "Contenido ilegal",
+        "harmful": "Contenido dañino",
+        "harassment": "Acoso",
+        "spam": "Spam",
+        "malware": "Malware",
+        "other": "Otro"
+      }
+    },
+    "info": {
+      "title": "Información de soporte",
+      "report_types": "Tipos de reportes",
+      "dmca": {"title": "Aviso de retirada DMCA", "desc": "Reporta infracciones de derechos de autor. Incluye el identificador del paste y la información detallada de la obra."},
+      "abuse": {"title": "Reporte de abuso", "desc": "Reporta contenido que viole nuestra Política de uso aceptable, incluyendo contenido ilegal, dañino o inapropiado."},
+      "general": {"title": "Soporte general", "desc": "Preguntas sobre el uso del servicio, problemas técnicos o consultas generales."},
+      "security": {"title": "Problema de seguridad", "desc": "Reporta vulnerabilidades, actividad sospechosa o posibles amenazas de seguridad."},
+      "appeal": {"title": "Apelación de política", "desc": "Apela la eliminación de contenido o restricciones de cuenta que crees que se hicieron por error."},
+      "response": {
+        "title": "Tiempos de respuesta",
+        "dmca": "Avisos DMCA: 24-48 horas",
+        "abuse": "Reportes de abuso: 24-48 horas",
+        "security": "Problemas de seguridad: 12-24 horas",
+        "general": "Soporte general: 48-72 horas",
+        "appeal": "Apelaciones de políticas: 5-7 días hábiles"
+      },
+      "quick": {
+        "title": "Enlaces rápidos",
+        "terms": "Términos del servicio",
+        "privacy": "Política de privacidad",
+        "dmca": "Política DMCA",
+        "acceptable_use": "Política de uso aceptable",
+        "no_logs": "Política de No Logs",
+        "philosophy": "Nuestra filosofía"
+      },
+      "contact": {
+        "title": "Contacto directo",
+        "general_label": "Soporte general:"
+      }
+    }
+  },
+  "legal": {
+    "common": { "last_updated": "Última actualización:" },
+    "terms": {
+      "title": "Términos del servicio",
+      "banner_title": "Derechos fundamentales de privacidad"
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "banner_title": "La privacidad como derecho humano fundamental"
+    },
+    "how": {
+      "title": "Cómo funciona DailyForever",
+      "doc_title": "Cómo funciona DailyForever - DailyForever",
+      "subtitle": "Resumen técnico del sistema de cifrado de conocimiento cero y los mecanismos de protección de datos.",
+      "toc": {
+        "title": "Tabla de contenidos",
+        "threat_model": "1. Modelo de amenazas y supuestos",
+        "lifecycle": "2. Ciclo de vida de pastes y archivos",
+        "overview": "3. Visión general del sistema",
+        "encryption_process": "4. Proceso de cifrado",
+        "enc_diagram": "4.1 Diagrama de cifrado y subida",
+        "encrypted_data_format": "5. Formato de datos cifrados",
+        "key_management": "6. Gestión de claves",
+        "prekeys": "6.1 Prekeys poscuánticas (/prekeys)",
+        "data_flow": "7. Arquitectura de flujo de datos",
+        "dec_diagram": "7.1 Diagrama de descifrado y visualización",
+        "password_gate": "7.2 Puerta de contraseña y limitación de tasa",
+        "retention": "7.3 Almacenamiento, expiración y borrado",
+        "security_features": "8. Funciones de seguridad",
+        "zk_proofs": "9. Pruebas de conocimiento cero",
+        "technical_specifications": "10. Especificaciones técnicas",
+        "privacy_guarantees": "11. Garantías de privacidad",
+        "srp_authentication": "12. Autenticación de conocimiento cero (SRP‑6a)",
+        "srp_sequence": "13. Diagrama de secuencia de SRP",
+        "best_practices": "14. Mejores prácticas de seguridad",
+        "technical_references": "15. Referencias técnicas"
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "banner_title": "Filosofía de diseño centrada en la privacidad",
+      "still": {
+        "title": "¿Aún tienes preguntas?",
+        "support_center": "Centro de soporte"
+      }
+    },
+    "philosophy": {
+      "title": "Nuestra filosofía",
+      "banner_title": "La privacidad y el cifrado como derechos humanos universales"
+    },
+    "transparency": {
+      "title": "Informe de transparencia",
+      "banner_title": "Nuestro compromiso con la transparencia"
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "🍪 Consentimiento de cookies",
+      "desc": "Usamos cookies esenciales para que el sitio funcione correctamente y cookies de analítica para mejorar tu experiencia. Al hacer clic en \"Aceptar todo\", aceptas el uso de cookies. Puedes personalizar tus preferencias o saber más en nuestra Política de privacidad."
+    },
+    "buttons": { "customize": "Personalizar", "necessary_only": "Solo necesarias", "accept_all": "Aceptar todo" },
+    "modal": {
+      "title": "Preferencias de cookies",
+      "essential": { "title": "Cookies esenciales", "desc": "Necesarias para el funcionamiento básico del sitio" },
+      "always_active": "Siempre activas",
+      "analytics": { "title": "Cookies de análisis", "desc": "Ayudan a entender cómo interactúan los visitantes con el sitio" },
+      "marketing": { "title": "Cookies de marketing", "desc": "Se usan para publicidad y seguimiento entre sitios" },
+      "save": "Guardar preferencias"
+    }
+  },
+  "backup": {
+    "title": "Guarda tu código de respaldo",
+    "subtitle": "Este es tu código de respaldo. Guárdalo en un lugar seguro: podrás usarlo para iniciar sesión si olvidas tu PIN.",
+    "label": "Código de respaldo:",
+    "label_plain": "Código de respaldo:",
+    "important": "Importante:",
+    "note": "Este código cambiará cada vez que inicies sesión. Guárdalo en un gestor de contraseñas u otro lugar seguro.",
+    "download_txt": "Descargar como texto",
+    "saved": "Ya lo he guardado",
+    "file": {
+      "header": "DailyForever - Código de respaldo",
+      "generated": "Generado:",
+      "important": "Importante:",
+      "note": "Este código cambiará cada vez que inicies sesión. Guárdalo en un gestor de contraseñas u otro lugar seguro.",
+      "usage": "Puedes usar este código para iniciar sesión si olvidas tu PIN."
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Centro de mando de Admin",
+      "doc_title": "Panel de administración - DailyForever",
+      "subtitle": "Monitorea la salud de la plataforma, aplica políticas y gestiona el contenido de DailyForever en tiempo real.",
+      "buttons": {
+        "analytics": "Analítica",
+        "manage_users": "Gestionar usuarios",
+        "manage_pastes": "Gestionar pastes",
+        "manage_files": "Gestionar archivos",
+        "support_reports": "Reportes de soporte",
+        "manage_posts": "Gestionar publicaciones"
+      },
+      "stats": {
+        "total_pastes": "Pastes totales",
+        "today": "hoy",
+        "removed_pastes": "Pastes eliminados",
+        "active": "activos",
+        "storage_used": "Almacenamiento usado",
+        "across": "En",
+        "files": "archivos",
+        "user_security": "Seguridad de usuarios",
+        "twofa": "2FA:"
+      },
+      "activity": { "title": "Pastes creados (7 días)", "utc": "Hora UTC" },
+      "flagged": {
+        "title": "Marcados recientemente",
+        "subtitle": "Eliminados automáticamente o por admin",
+        "reason_label": "Motivo:",
+        "owner_label": "Propietario:",
+        "empty": "Sin pastes marcados. 🎉"
+      },
+      "inputs": {
+        "reason_placeholder": "Motivo",
+        "limit_placeholder": "Límite"
+      },
+      "controls": {
+        "set": "Establecer",
+        "update": "Actualizar",
+        "takedown": "Retirar",
+        "apply": "Aplicar",
+        "manage": "Gestionar"
+      },
+      "newest": {
+        "title": "Pastes más recientes",
+        "subtitle": "Últimos 6 envíos",
+        "th": {
+          "identifier": "Identificador",
+          "owner": "Propietario",
+          "views": "Vistas",
+          "limit": "Límite",
+          "created": "Creado",
+          "moderation": "Moderación"
+        }
+      },
+      "labels": { "removed": "Eliminado" },
+      "side": {
+        "top_pastes": { "title": "Pastes con más vistas", "empty": "No hay datos disponibles." },
+        "latest_files": { "title": "Últimos archivos", "empty": "Sin subidas recientes." }
+      },
+      "editorial": {
+        "title": "Editorial",
+        "view_all": "Ver todo",
+        "published": "Publicado",
+        "draft": "Borrador",
+        "empty": "Aún no hay publicaciones."
+      }
+    },
+    "files": {
+      "index": {
+        "title": "Archivos",
+        "doc_title": "Gestionar archivos - DailyForever",
+        "th": {
+          "id": "ID",
+          "owner": "Propietario",
+          "filename": "Nombre de archivo",
+          "size": "Tamaño",
+          "views": "Vistas",
+          "limit": "Límite",
+          "private": "Privado"
+        },
+        "guest": "invitado",
+        "buttons": { "set": "Establecer", "delete": "Eliminar" },
+        "limit_placeholder": "Límite",
+        "confirm_delete": "¿Eliminar este archivo?"
+      }
+    },
+    "analytics": {
+      "title": "Panel de analítica",
+      "doc_title": "Analítica - Panel de administración",
+      "subtitle": "Rendimiento del sitio y actividad de usuarios",
+      "data_range": "Rango de datos",
+      "buttons": { "export": "Exportar datos" },
+      "cards": {
+        "total_pastes": "Pastes totales",
+        "total_files": "Archivos totales",
+        "total_users": "Usuarios totales",
+        "total_views": "Vistas totales",
+        "this_month": "este mes",
+        "stored": "almacenados"
+      },
+      "charts": {
+        "daily": "Actividad diaria (Últimos 30 días)",
+        "hourly": "Actividad por hora (Últimas 24 horas)"
+      },
+      "sections": {
+        "content": {
+          "title": "Estadísticas de contenido",
+          "private_pastes": "Pastes privados",
+          "public_pastes": "Pastes públicos",
+          "password_protected": "Protegidos con contraseña",
+          "expired_pastes": "Pastes expirados",
+          "with_view_limits": "Con límite de vistas"
+        },
+        "user": {
+          "title": "Estadísticas de usuarios",
+          "active_users": "Usuarios activos",
+          "users_with_pastes": "Usuarios con pastes",
+          "users_with_files": "Usuarios con archivos",
+          "avg_pastes": "Promedio de pastes/usuario",
+          "avg_files": "Promedio de archivos/usuario"
+        },
+        "storage": { "title": "Almacenamiento por tipo de archivo" }
+      },
+      "top": { "pastes": "Pastes con más vistas", "files": "Archivos con más descargas" },
+      "recent_users": "Usuarios recientes",
+      "empty": { "pastes": "No se encontraron pastes", "files": "No se encontraron archivos", "users": "No se encontraron usuarios" }
+    },
+    "users": {
+      "index": {
+        "title": "Gestión de usuarios",
+        "doc_title": "Gestión de usuarios - Panel de administración",
+        "subtitle": "Gestiona usuarios, permisos y estado de cuenta",
+        "notice": {
+          "title": "Aviso de privacidad",
+          "text": "El acceso administrativo se limita solo a metadatos de cuentas. No podemos acceder a contenido cifrado debido a nuestra arquitectura de conocimiento cero. Todas las acciones administrativas se registran para auditoría."
+        },
+        "stats": {
+          "total_users": "Usuarios totales",
+          "admin_users": "Usuarios admin",
+          "two_factor_enabled": "2FA activado",
+          "new_today": "Nuevos hoy"
+        },
+        "filters": {
+          "search": "Buscar",
+          "search_placeholder": "Usuario o nombre",
+          "admin_status": "Estado admin",
+          "all_users": "Todos los usuarios",
+          "admins_only": "Solo admins",
+          "regular_users": "Usuarios normales",
+          "two_factor_status": "Estado 2FA",
+          "twofa_enabled": "2FA activado",
+          "twofa_disabled": "2FA desactivado"
+        },
+        "buttons": { "filter": "Filtrar", "activity": "Actividad" },
+        "th": { "user": "Usuario", "status": "Estado", "activity": "Actividad", "joined": "Alta", "actions": "Acciones" },
+        "badges": { "admin": "Admin", "twofa": "2FA", "suspended": "Suspendido" },
+        "activity": { "pastes": "pastes", "files": "archivos" },
+        "empty": "No se encontraron usuarios que coincidan con tus criterios."
+      }
+    },
+    "pastes": {
+      "index": {
+        "title": "Gestionar pastes",
+        "doc_title": "Gestionar pastes - Admin DailyForever",
+        "subtitle": "Buscar, filtrar y moderar pastes enviados.",
+        "stats": { "active": "Activos", "removed": "Eliminados", "private": "Privados", "public": "Públicos" },
+        "filters": {
+          "search": "Buscar",
+          "search_placeholder": "Identificador o usuario",
+          "status": "Estado",
+          "privacy": "Privacidad",
+          "any": "Cualquiera",
+          "active": "Activo",
+          "removed": "Eliminado",
+          "public": "Público",
+          "private": "Privado"
+        },
+        "buttons": { "reset": "Restablecer", "apply_filters": "Aplicar filtros" },
+        "th": {
+          "identifier": "Identificador",
+          "owner": "Propietario",
+          "status": "Estado",
+          "privacy": "Privacidad",
+          "views_limit": "Vistas / Límite",
+          "created": "Creado",
+          "actions": "Acciones"
+        },
+        "status": { "active": "Activo", "removed": "Eliminado" },
+        "privacy": { "public": "Público", "private": "Privado" },
+        "reason_none": "Sin motivo",
+        "empty": "No hay pastes que coincidan con tus filtros."
+      }
+    },
+    "posts": {
+      "index": {
+        "title": "Publicaciones",
+        "doc_title": "Gestionar publicaciones - DailyForever",
+        "new_post": "Nueva publicación",
+        "th": { "title": "Título", "slug": "Slug", "status": "Estado", "updated": "Actualizado" },
+        "status": { "published": "Publicado", "draft": "Borrador" }
+      }
+    },
+    "support": {
+      "index": {
+        "title": "Reportes de soporte",
+        "doc_title": "Reportes de soporte - Panel de administración",
+        "back": "← Volver al panel",
+        "stats": {
+          "total": "Reportes totales",
+          "pending": "Pendientes",
+          "resolved": "Resueltos",
+          "dmca": "DMCA",
+          "abuse": "Abuso",
+          "security": "Seguridad"
+        },
+        "filters": {
+          "type": "Tipo",
+          "all_types": "Todos los tipos",
+          "dmca": "DMCA",
+          "abuse": "Abuso",
+          "general": "General",
+          "security": "Seguridad",
+          "appeal": "Apelación",
+          "status": "Estado",
+          "all_statuses": "Todos los estados",
+          "pending": "Pendiente",
+          "in_progress": "En progreso",
+          "resolved": "Resuelto",
+          "closed": "Cerrado",
+          "search": "Buscar",
+          "search_placeholder": "Asunto, email o identificador..."
+        },
+        "buttons": { "filter": "Filtrar", "clear": "Limpiar" },
+        "th": { "id": "ID", "type": "Tipo", "subject": "Asunto", "status": "Estado", "email": "Email", "created": "Creado", "actions": "Acciones" },
+        "empty": "No se encontraron reportes de soporte."
+      },
+      "show": {
+        "doc_title": "Reporte de soporte - Panel de administración",
+        "title": "Reporte de soporte",
+        "back": "← Volver a reportes",
+        "details": {
+          "title": "Detalles del reporte",
+          "subject": "Asunto",
+          "description": "Descripción",
+          "paste_identifier": "Identificador del paste",
+          "view_paste": "Ver paste",
+          "violation_type": "Tipo de violación",
+          "copyrighted_work": "Obra con derechos de autor",
+          "authorization": "Autorización",
+          "contact_info": "Información de contacto"
+        },
+        "notes": { "title": "Notas del admin", "empty": "Aún no hay notas del admin." },
+        "manage": {
+          "title": "Gestionar reporte",
+          "status": "Estado",
+          "options": { "pending": "Pendiente", "in_progress": "En progreso", "resolved": "Resuelto", "closed": "Cerrado" },
+          "notes": "Notas del admin",
+          "notes_placeholder": "Añade notas sobre este reporte...",
+          "update": "Actualizar reporte"
+        },
+        "info": {
+          "title": "Información del reporte",
+          "id": "ID del reporte:",
+          "type": "Tipo:",
+          "status": "Estado:",
+          "created": "Creado:",
+          "resolved": "Resuelto:",
+          "resolved_by": "Resuelto por:",
+          "email": "Email:"
+        },
+        "quick": {
+          "title": "Acciones rápidas",
+          "view_paste": "Ver paste relacionado",
+          "reply_email": "Responder por email",
+          "search_pastes": "Buscar pastes"
+        }
+      }
+    }
+  }
+}
+}

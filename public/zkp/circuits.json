@@ -1,0 +1,62 @@
+{
+  "circuits": {
+    "encryption_commitment": {
+      "name": "EncryptionCommitment",
+      "version": "1.0.0",
+      "description": "Zero-knowledge proof of encryption correctness using Poseidon hash commitments",
+      "status": "development",
+      "inputs": {
+        "private": [
+          {
+            "name": "plaintext",
+            "type": "array",
+            "length": 15,
+            "description": "The plaintext bytes to be encrypted"
+          },
+          {
+            "name": "nonce",
+            "type": "field",
+            "description": "Random nonce for commitment uniqueness"
+          }
+        ],
+        "public": [
+          {
+            "name": "commitment",
+            "type": "field",
+            "description": "Poseidon hash of plaintext and nonce"
+          }
+        ]
+      },
+      "constraints": 2048,
+      "curve": "bn128",
+      "hash": "poseidon",
+      "files": {
+        "circuit": "/zkp/encryption_commitment.circom",
+        "wasm": "/zkp/encryption_commitment.wasm",
+        "zkey": "/zkp/encryption_commitment.zkey",
+        "vkey": "/zkp/verification_key.json"
+      },
+      "build": {
+        "date": "2025-10-05",
+        "compiler": "circom 2.1.4",
+        "ceremony": "development_only",
+        "contributors": 1
+      },
+      "security": {
+        "level": "development",
+        "warning": "This is a development build. For production, perform a proper trusted setup ceremony with multiple contributors.",
+        "recommendations": [
+          "Use Powers of Tau ceremony with community participation",
+          "Verify circuit constraints and security assumptions",
+          "Audit the circuit implementation",
+          "Use production-grade proving keys"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generated": "2025-10-05T12:40:00Z",
+    "platform": "DailyForever",
+    "version": "1.0.0"
+  }
+}

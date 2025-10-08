@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    @foreach($sitemaps as $loc)
+    <sitemap>
+        <loc>{{ $loc }}</loc>
+        <lastmod>{{ $lastmod }}</lastmod>
+    </sitemap>
+    @endforeach
+    @foreach($urls as $url)
+    <sitemap>
+        <loc>{{ $url['loc'] }}</loc>
+        <lastmod>{{ $url['lastmod'] }}</lastmod>
+    </sitemap>
+    @endforeach
+</sitemapindex>
+
+

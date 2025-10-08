@@ -1,0 +1,23 @@
+# Analytics and SEO Configuration
+# Copy these to your .env file and fill in your actual values
+
+# Google Analytics 4
+GA_MEASUREMENT_ID=G-XXXXXXXXXX
+
+# Google Search Console Verification
+GOOGLE_SITE_VERIFICATION=your_google_verification_code_here
+
+# Bing Webmaster Tools Verification
+BING_SITE_VERIFICATION=your_bing_verification_code_here
+
+# Google AdSense
+ADSENSE_PUBLISHER_ID=your_publisher_id_here
+ADSENSE_BANNER_SLOT=your_banner_ad_slot_id
+ADSENSE_INARTICLE_SLOT=your_inarticle_ad_slot_id
+ADSENSE_BOTTOM_SLOT=your_bottom_ad_slot_id
+
+# Facebook Pixel (optional)
+FACEBOOK_PIXEL_ID=your_facebook_pixel_id
+
+# Twitter Analytics (optional)
+TWITTER_PIXEL_ID=your_twitter_pixel_id

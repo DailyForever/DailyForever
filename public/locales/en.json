@@ -1,0 +1,1002 @@
+{
+  "meta": {
+    "title": {
+      "home": "DailyForever - Secure Encrypted Pastebin & File Sharing | Zero-Knowledge Platform",
+      "paste_create": "Create Secure Encrypted Paste | DailyForever",
+      "paste_show": "Secure Paste | DailyForever",
+      "file_create": "Upload & Encrypt Files Securely | DailyForever",
+      "file_show": "Encrypted File | DailyForever",
+      "login": "Secure Login | DailyForever",
+      "register": "Create Account - Join DailyForever | Secure Platform",
+      "how_it_works": "How Zero-Knowledge Encryption Works | DailyForever",
+      "faq": "Frequently Asked Questions | DailyForever Support",
+      "privacy": "Privacy Policy | DailyForever - Your Data Protected",
+      "terms": "Terms of Service | DailyForever",
+      "blog": "Blog - Security & Privacy Tips | DailyForever",
+      "dashboard": "My Dashboard | DailyForever",
+      "roadmap": "Product Roadmap & Future Features | DailyForever",
+      "philosophy": "Our Philosophy - Privacy First | DailyForever"
+    },
+    "description": {
+      "home": "DailyForever is the most secure encrypted pastebin and file sharing platform. Share text and files with zero-knowledge encryption, end-to-end security, and no data collection. Free & anonymous.",
+      "paste_create": "Create encrypted pastes with military-grade security. Your content is encrypted client-side before sending. Features include password protection, expiration dates, and one-time view options.",
+      "file_create": "Upload and share files securely with end-to-end encryption. Files up to 100MB encrypted client-side. Zero-knowledge architecture ensures only you and your recipients can decrypt.",
+      "how_it_works": "Learn how DailyForever's zero-knowledge encryption protects your data. Understand client-side encryption, key management, and why we can't read your content.",
+      "faq": "Find answers to common questions about DailyForever's encrypted pastebin service. Learn about security features, privacy protection, and how to use our platform.",
+      "privacy": "DailyForever's privacy policy explains our zero-knowledge architecture, no-logs policy, and commitment to protecting your data. We never track, monitor, or store your content.",
+      "blog": "Stay updated with the latest security tips, privacy news, and platform updates from DailyForever. Learn best practices for secure communication and data protection.",
+      "roadmap": "Explore upcoming features and improvements planned for DailyForever. See our commitment to continuous security enhancements and user-requested features.",
+      "philosophy": "Discover DailyForever's core philosophy: privacy is a fundamental right. Learn about our mission to provide secure, anonymous communication tools for everyone."
+    }
+  },
+  "nav": {
+    "new_paste": "New Secure Paste",
+    "new_file": "New Encrypted File",
+    "prekeys": "Prekeys",
+    "how_it_works": "How it works",
+    "dashboard": "Dashboard",
+    "my_files": "My Files",
+    "my_pastes": "My Pastes",
+    "admin": "Admin",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "footer": {
+    "brand": {
+      "name": "DailyForever",
+      "tagline": "Secure, Private, Forever",
+      "description": "End-to-end encrypted sharing platform"
+    },
+    "tagline": "Secure Paste Sharing",
+    "description": "Zero‑knowledge encryption. No data collection. Complete privacy protection.",
+    "product": "Product",
+    "learn": "Learn",
+    "legal": "Legal",
+    "how_it_works": "How it works",
+    "roadmap": "Roadmap",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "support": "Support",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "acceptable_use": "Acceptable Use",
+    "no_logs": "No Logs",
+    "dmca": "DMCA",
+    "philosophy": "Philosophy",
+    "e2e": "E2E",
+    "zk": "Zero‑Knowledge",
+    "no_data_collection": "No Data Collection"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "aria": {
+    "menu_open": "Open navigation menu",
+    "menu_close": "Close navigation menu"
+  },
+  "login": {
+    "hint_backup": "Backup code detected - this will change after login",
+    "hint_password": "Password detected - enter your account password",
+    "placeholder_srp": "Enter your password for SRP authentication",
+    "placeholder_default": "Enter your password or 16-character backup code",
+    "srp_initiating": "Initiating SRP authentication...",
+    "srp_generating": "Generating proof...",
+    "srp_failed_title": "SRP Login Failed",
+    "unknown_error": "Unknown error",
+    "srp_failed_try_again": "Please try again or use regular login.",
+    "success_title": "Success!",
+    "notice_title": "Notice",
+    "header_welcome": "Welcome Back",
+    "header_subtitle": "Access your secure workspace",
+    "username_label": "Username",
+    "username_placeholder": "Enter your username",
+    "srp_title": "SRP Authentication",
+    "srp_desc": "Maximum security: Your password never leaves your device. Uses SRP-6a protocol for zero-knowledge authentication.",
+    "password_or_code": "Password or Backup Code",
+    "input_hint_default": "Enter your password or backup code above",
+    "password_label": "Password",
+    "backup_code_label": "Backup Code",
+    "sign_in": "Sign In",
+    "security_features": {
+      "title": "Security Features",
+      "list": {
+        "e2e": "End-to-end encryption for all data",
+        "srp": "SRP zero-knowledge authentication",
+        "recovery": "Secure password recovery options",
+        "totp": "Two-factor authentication support"
+      }
+    },
+    "tip_text": "Tip: Enter your password normally, or paste a 16-character backup code",
+    "recover_link": "Forgot your PIN? Recover your account",
+    "no_account": "Don't have an account?",
+    "create_one": "Create one here"
+  },
+  "common": {
+    "zk_e2e": "Zero‑knowledge • E2E encrypted",
+    "privacy_desc": "Zero‑knowledge encryption. No data collection. Complete privacy protection.",
+    "badges": {
+      "e2e": "End‑to‑End Encrypted",
+      "zk": "Zero‑Knowledge"
+    },
+    "share_link_warning": "Your share link contains the decryption key after the #. Keep it private.",
+    "security_pillars": "End-to-end encrypted • Zero-knowledge • No server access to content",
+    "options": {
+      "title": "Options",
+      "expiration": "Expiration",
+      "never": "Never",
+      "1hour": "1 Hour",
+      "1day": "1 Day",
+      "1week": "1 Week",
+      "1month": "1 Month",
+      "never_simple": "Keep forever",
+      "1hour_simple": "1 Hour",
+      "1day_simple": "24 Hours (recommended)",
+      "1week_simple": "1 Week",
+      "1month_simple": "1 Month"
+    },
+    "password": {
+      "label_optional": "Password (optional)",
+      "placeholder_optional": "Protect with a password (optional)",
+      "hint_optional": "Password hint (optional)",
+      "placeholder_simple": "Optional password..."
+    },
+    "view_policy": {
+      "label": "View policy",
+      "multiple": "Allow multiple views",
+      "once": "View once (delete after first view)"
+    },
+    "share_url": "Share URL",
+    "share_link_never_leaves": "Your share link contains the decryption key after the # and never leaves your browser.",
+    "identifier": "Identifier:",
+    "id_label": "ID:",
+    "content": "Content",
+    "progress": {
+      "preparing": "Preparing…"
+    },
+    "status": {
+      "checking": "Checking…"
+    },
+    "zkp": {
+      "commitment": "Commitment:"
+    },
+    "qr": {
+      "scan_to_open": "Scan to open",
+      "scan_to_download": "Scan to download",
+      "use_camera": "Use your phone camera to open the link"
+    },
+    "buttons": {
+      "copy": "Copy",
+      "share": "Share",
+      "show_qr": "Show QR",
+      "copy_id": "Copy ID",
+      "close": "Close",
+      "download_png": "Download PNG",
+      "open_link": "Open Link",
+      "unlock": "Unlock",
+      "download": "Download",
+      "copy_json": "Copy JSON",
+      "show_json": "Show JSON",
+      "view": "View",
+      "edit": "Edit",
+      "verify": "Verify",
+      "refresh": "Refresh",
+      "generate_proof": "Generate Proof",
+      "decrypt": "Decrypt",
+      "copied": "Copied!",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "characters": "characters",
+    "expires_simple": "How long should we keep it?",
+    "password_simple": "Add password protection?",
+    "advanced_settings": "Advanced Settings",
+    "simple_mode": "Simple Mode",
+    "security_simple": "🔒 Your text is encrypted before leaving your device",
+    "private_label": "Private (visible only to you when logged in)"
+    ,
+    "misc": { "yes": "yes", "no": "no" },
+    "errors": { "request_failed": "Request failed" },
+    "metrics": { "views": "views", "downloads": "downloads", "files": "files", "pastes": "pastes" },
+    "units": { "kb": "KB", "mb": "MB", "gb": "GB" },
+    "user": { "anonymous": "Anonymous" }
+  },
+  "editor": {
+    "editor": "Editor",
+    "wrap": "Wrap",
+    "highlight": "Highlight",
+    "no_wrap": "No Wrap"
+  },
+  "paste": {
+    "create": {
+      "hero_title": "Secure Paste Sharing. Private by design.",
+      "badges": { "view_once": "View‑Once Option" },
+      "cta_create": "Create Secure Paste",
+      "section_title": "Create Secure Paste",
+      "section_desc": "Your content is encrypted client-side before sending. Zero-knowledge architecture ensures complete privacy.",
+      "placeholder": "Start typing or paste text… It will be encrypted before sending.",
+      "placeholder_simple": "Type or paste your text here...\n\nYour text will be encrypted instantly and only people with your link can read it.",
+      "cta_simple": "Encrypt & Create Link",
+      "tip_shortcut": "Tip: Press Ctrl/⌘ + Enter to create the paste",
+      "guest": {
+        "title": "Guest Mode",
+        "message": "You're creating a paste as a guest.",
+        "link": "Register or login to access more features"
+      },
+      "password_note": "Optional password adds an extra layer of access control",
+      "result": {
+        "title": "Paste Created Successfully",
+        "identifier_note": "Share this short ID with support/admins for moderation. Never share the key if you want to keep the paste private."
+      },
+      "recipient_label": "Recipient (username, optional)",
+      "recipient_placeholder": "Leave empty to use link-only mode",
+      "recipient_note": "If set, the paste will be encrypted specifically for this user. The server never sees your content.",
+      "login_private": "Login to create private pastes."
+    },
+    "show": {
+      "title": "Secure Paste",
+      "new_paste": "New Paste",
+      "owner_decrypted": "Decrypted Content (Owner View)",
+      "owner_encrypted": "Encrypted Content (Owner View)",
+      "owner_note_label": "Owner Note:",
+      "owner_note_text": "This is the encrypted content. To decrypt it, you need the encryption key from the share URL (the part after #).",
+      "enter_key_manually": "Enter key manually",
+      "use_share_url": "use the share URL with key",
+      "decrypting": {
+        "title": "Decrypting content...",
+        "desc": "Please wait while we decrypt your content client-side.",
+        "note": "Zero-knowledge: the key stays in your URL fragment and is never sent to the server."
+      },
+      "password_gate": {
+        "protected": "This paste is protected by a password.",
+        "placeholder": "Enter password"
+      },
+      "error": {
+        "title": "Decryption Failed",
+        "desc1": "Unable to decrypt this paste. The encryption key may be missing or invalid.",
+        "desc2": "Make sure you're using the complete URL including the fragment after #",
+        "label": "Paste key (hex) to decrypt"
+      },
+      "attachments": {
+        "title": "Encrypted Files",
+        "view_file": "View File",
+        "download_decrypt": "Download & Decrypt"
+      }
+    },
+    "edit": {
+      "title": "Edit Paste",
+      "desc": "Edit your encrypted paste. Changes will be encrypted client-side before saving.",
+      "placeholder": "Paste your content here... It will be encrypted before sending.",
+      "password_note": "If set, password is verified server-side (Argon2id). Content remains end‑to‑end encrypted.",
+      "view_limit": { "label": "View Limit", "placeholder": "Maximum views (optional)" },
+      "private": { "label": "Make this paste private", "help": "Private pastes are only visible to you" },
+      "back_to_mine": "← Back to My Pastes",
+      "buttons": { "update": "Update Paste", "updating": "Updating..." },
+      "errors": { "empty": "Please enter some content.", "update_failed": "Error updating paste: " },
+      "confirm_cancel": "Are you sure you want to cancel? Any unsaved changes will be lost."
+    },
+    "mine": {
+      "title": "My Pastes",
+      "doc_title": "My Pastes - DailyForever",
+      "subtitle": "Manage your encrypted pastes",
+      "create": "Create New Paste",
+      "th": { "id": "ID", "identifier": "Identifier", "private": "Private", "views": "Views", "limit": "Limit", "created": "Created", "actions": "Actions" },
+      "private": "Private",
+      "public": "Public",
+      "manage": "Manage",
+      "reason": "Reason",
+      "update": "Update",
+      "takedown": "Takedown",
+      "limit": "Limit",
+      "apply": "Apply",
+      "no_pastes": "No pastes yet",
+      "create_first_paste": "Create your first paste to get started",
+      "create_new_paste": "Create New Paste",
+      "confirm_delete": "Delete this file? This cannot be undone.",
+      "confirm_delete_paste": "Are you sure you want to delete this paste? This action cannot be undone.",
+      "delete_success": "Paste deleted successfully!",
+      "delete_error_prefix": "Error deleting paste:",
+      "delete_error_generic": "Unknown error",
+      "delete_error_retry": "Error deleting paste. Please try again."
+    },
+    "not_found": {
+      "title": "Paste Not Found",
+      "doc_title": "Paste Not Found - DailyForever",
+      "desc": "This paste either doesn't exist, has expired, or the URL is incomplete.",
+      "common": "Common Issues:",
+      "issue_expired": "• The paste has expired and been automatically deleted",
+      "issue_missing_key": "• The URL is missing the encryption key fragment (part after #)",
+      "issue_mistyped": "• The paste ID was mistyped or corrupted",
+      "issue_never_created": "• The paste was never created successfully",
+      "create": "Create New Paste",
+      "go_back": "← Go Back"
+    }
+  },
+  "files": {
+    "create": {
+      "hero_tagline": "Secure File Sharing",
+      "hero_title": "Upload encrypted files. Private by design.",
+      "cta_upload": "Upload Secure File",
+      "section_title": "Upload Secure File",
+      "section_desc": "Your file is encrypted client-side before uploading. Zero-knowledge architecture ensures complete privacy.",
+      "dropzone": {
+        "drag": "Drag a file here, or browse from your device",
+        "limit": "Up to 160 MB — Client‑side encrypted • Zero‑knowledge",
+        "browse": "Browse files",
+        "simple": "Drop your file here or click to browse",
+        "simple_desc": "Any file up to 160 MB • Encrypted instantly",
+        "choose": "Choose File"
+      },
+      "cta_simple": "Encrypt & Upload File",
+      "field": { "file": "File" },
+      "view_limit": {
+        "label": "View limit (optional)",
+        "placeholder": "Maximum number of downloads",
+        "note": "File will be deleted after this many downloads"
+      },
+      "download_url": "Download URL",
+      "result": {
+        "title": "File Uploaded Successfully",
+        "identifier_note": "Share this short ID with support/admins for moderation. Never share the key if you want to keep the file private."
+      },
+      "qr": { "scan_to_download": "Scan to download" },
+      "recipient_username": "Recipient username (optional)",
+      "username_placeholder": "username",
+      "recipient_note": "If set, the file key is wrapped to the recipient using their ML‑KEM prekey so they can download without the URL key.",
+      "login_private": "Login to create private files."
+    },
+    "show": {
+      "title": "Encrypted File",
+      "info": {
+        "filename": "Filename:",
+        "size": "Size:",
+        "downloads": "Downloads:",
+        "max": "Max"
+      },
+      "kem": {
+        "title": "Recipient Key Required",
+        "desc": "This file is addressed using {{alg}}. Import your ML‑KEM secret key (base64) for key ID {{kid}} to download without a URL key.",
+        "desc_part1": "This file is addressed using",
+        "desc_part2": "Import your ML‑KEM secret key (base64) for key ID",
+        "desc_part3": "to download without a URL key.",
+        "placeholder": "Paste your ML-KEM secret key (base64)",
+        "save": "Save Key"
+      },
+      "zkp": {
+        "title": "Zero-Knowledge Proof"
+      },
+      "attachments": {
+        "encrypted_files": "Encrypted Files",
+        "view_file": "View File",
+        "download_decrypt": "Download & Decrypt"
+      }
+    },
+    "mine": {
+      "title": "My Files",
+      "th": { "filename": "Filename", "size": "Size", "views": "Views", "limit": "Limit", "private": "Private", "actions": "Actions" },
+      "confirm_delete": "Delete this file? This cannot be undone."
+    }
+  },
+  "blog": {
+    "index": {
+      "title": "Blog",
+      "tagline": "Privacy & Security Insights. Zero‑knowledge, encryption, and safe sharing.",
+      "search_label": "Search articles",
+      "search_placeholder": "Search articles...",
+      "read_article": "Read article",
+      "no_results": "No articles match your search."
+    },
+    "show": {
+      "breadcrumb": { "home": "Home", "blog": "Blog" },
+      "back_to_blog": "Back to Blog",
+      "copy_link": "Copy Link",
+      "copied": "Copied!"
+    }
+  },
+  "twofa": {
+    "title": "Two‑Factor Authentication",
+    "verify_title": "Two‑Factor Verification",
+    "subtitle": "Enter the 6‑digit code from your authenticator app",
+    "code_label": "Authentication Code",
+    "placeholder": "123456",
+    "verify": "Verify",
+    "back_to_login": "Back to login"
+  },
+  "register": {
+    "success_title": "Success!",
+    "header_title": "Create Your Account",
+    "header_subtitle": "Join DailyForever for secure, encrypted pastes",
+    "username_label": "Username",
+    "username_placeholder": "Choose a unique username",
+    "username_hint": "3-64 characters. This will be visible to others.",
+    "password_label": "Password",
+    "password_placeholder": "Create a strong password",
+    "password_hint": "At least 8 characters. Use a strong, unique password.",
+    "pin_label": "PIN (4-8 digits)",
+    "pin_placeholder": "Enter a 4-8 digit PIN",
+    "pin_hint": "Choose a 4-8 digit PIN for quick access and recovery.",
+    "srp": {
+      "title": "SRP Authentication",
+      "desc": "Enable SRP (Secure Remote Password) authentication. Your password never leaves your device - only cryptographic proofs are sent to the server."
+    },
+    "privacy": {
+      "title": "Privacy & Security",
+      "text_prefix": "By creating an account, you agree to our",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "text_suffix": "Your data is encrypted with zero-knowledge architecture."
+    },
+    "create_account": "Create Account",
+    "have_account": "Already have an account?",
+    "sign_in_here": "Sign in here"
+  },
+  "user": {
+    "dashboard": {
+      "title": "Dashboard",
+      "doc_title": "Dashboard - DailyForever",
+      "welcome": "Welcome back,",
+      "account_status": "Account Status",
+      "status": { "active": "Active" },
+      "stats": {
+        "total_pastes": "Total Pastes",
+        "active": "active",
+        "files_uploaded": "Files Uploaded",
+        "used": "used",
+        "this_week": "This Week",
+        "files": "files",
+        "security": "Security"
+      },
+      "prekeys": { "title": "Prekeys", "available": "available", "used": "used", "total": "total" },
+      "quick": {
+        "title": "Quick Actions",
+        "create_paste": "Create Paste",
+        "create_paste_desc": "Encrypted, zero-knowledge sharing",
+        "upload_file": "Upload File",
+        "upload_file_desc": "Up to 150MB, client-side encrypted",
+        "my_pastes": "My Pastes",
+        "my_pastes_desc": "View and manage your pastes",
+        "my_files": "My Files",
+        "my_files_desc": "Manage your uploaded files",
+        "prekeys": "Prekeys",
+        "prekeys_desc": "Generate & manage one-time keys"
+      },
+      "account": {
+        "title": "Account Management",
+        "settings": "Account Settings",
+        "settings_desc": "Password, 2FA, encryption preferences"
+      },
+      "recent_pastes": {
+        "title": "Recent Pastes",
+        "view_all": "View all",
+        "empty_title": "No pastes yet",
+        "empty_cta": "Create your first paste"
+      },
+      "recent_files": {
+        "title": "Recent Files",
+        "view_all": "View all",
+        "empty_title": "No files yet",
+        "empty_cta": "Upload your first file"
+      },
+      "activity": {
+        "title": "Activity Overview",
+        "legend": { "pastes_created": "Pastes Created", "last_7_days": "Last 7 days" },
+        "summary": {
+          "total_pastes": "Total Pastes",
+          "daily_average": "Daily Average",
+          "peak_day": "Peak Day"
+        },
+        "empty": {
+          "title": "No Activity Yet",
+          "desc": "Start creating pastes to see your activity analytics",
+          "cta": "Create Your First Paste"
+        }
+      }
+    }
+  },
+  "prekeys": {
+    "index": {
+      "title": "One-time prekeys",
+      "subtitle": "Generate ML-KEM one-time public keys locally. Private keys never leave your browser. Export and import to move devices.",
+      "import_secrets": "Import secrets",
+      "algorithm": "Algorithm",
+      "alg": {"512": "ML-KEM-512", "768": "ML-KEM-768 (recommended)", "1024": "ML-KEM-1024"},
+      "count_label": "Number of keys",
+      "generate_keys": "Generate keys",
+      "gen_hint": "Keys are generated in your browser. Only public keys are uploaded.",
+      "bundle_label": "Key bundle (JSON)",
+      "bundle_desc": "Paste or drop a bundle of public keys for upload.",
+      "clear": "Clear",
+      "upload_public": "Upload public",
+      "export_secrets": "Export secrets",
+      "export_hint": "Export your secret keys to a file and import them on another device. Secrets are stored in your browser's local storage under keys like pq.prekeys.<kid>.sk.",
+      "status_title": "Your key status",
+      "available": "Available",
+      "used": "Used",
+      "total": "Total",
+      "recent_title": "Recent keys",
+      "th": {"kid": "Key ID", "alg": "Algorithm", "status": "Status", "created": "Created"},
+      "empty": "No keys yet. Generate some above.",
+      "latest_10": "Showing latest 10 keys.",
+      "view_all": "View all keys"
+    },
+    "all": {
+      "title": "All prekeys",
+      "subtitle": "Filter, search, and perform bulk actions on your one-time prekeys.",
+      "back": "Back to prekeys",
+      "filters": {
+        "status": { "label": "Status", "options": { "all": "All" } },
+        "alg": { "options": { "all": "All" } },
+        "search": "Search (Key ID)",
+        "apply": "Apply filters",
+        "reset": "Reset"
+      },
+      "bulk": {
+        "select_page": "Select page",
+        "mark_available": "Mark available",
+        "mark_used": "Mark used",
+        "delete_selected": "Delete selected"
+      },
+      "table": { "select": "Select" },
+      "empty": "No keys match your filters."
+    },
+    "modal": {
+      "title_import": "Import Private Keys",
+      "subtitle_import": "Restore keys from a backup file",
+      "paste_json": "Paste JSON here, or drop your exported file:",
+      "import": "Import"
+    }
+  },
+  "support": {
+    "title": "Support Center",
+    "subtitle": "Get help, report issues, or contact our team. We're here to assist you with any questions or concerns.",
+    "form": {
+      "title": "Submit a Report",
+      "report_type": "Report Type",
+      "type": {
+        "select": "Select a report type",
+        "dmca": "DMCA Takedown Notice",
+        "abuse": "Abuse Report",
+        "general": "General Support",
+        "security": "Security Issue",
+        "appeal": "Policy Appeal"
+      },
+      "subject_label": "Subject",
+      "subject_placeholder": "Brief description of your issue",
+      "description_label": "Description",
+      "description_placeholder": "Please provide detailed information about your issue...",
+      "email_label": "Email (Optional)",
+      "email_placeholder": "your@email.com",
+      "email_help": "We'll use this to respond to your report. If not provided, we'll respond through this page.",
+      "submit": "Submit Report"
+    },
+    "dmca": {
+      "title": "DMCA Information",
+      "identifier_label": "Paste/File Identifier",
+      "identifier_placeholder": "e.g., aB3xK9",
+      "identifier_help": "The 6-character identifier of the content you want to report",
+      "work_label": "Copyrighted Work",
+      "work_placeholder": "Describe the copyrighted work that has been infringed",
+      "auth_label": "Authorization Statement",
+      "auth_placeholder": "I have a good faith belief that the use is not authorized by the copyright owner...",
+      "contact_label": "Contact Information",
+      "contact_placeholder": "Your full name, address, phone number, and email"
+    },
+    "abuse": {
+      "title": "Abuse Report Information",
+      "identifier_label": "Paste/File Identifier",
+      "identifier_placeholder": "e.g., aB3xK9",
+      "identifier_help": "The 6-character identifier of the content you want to report",
+      "type_label": "Type of Violation",
+      "type_select": "Select violation type",
+      "types": {
+        "illegal": "Illegal Content",
+        "harmful": "Harmful Content",
+        "harassment": "Harassment",
+        "spam": "Spam",
+        "malware": "Malware",
+        "other": "Other"
+      }
+    },
+    "info": {
+      "title": "Support Information",
+      "report_types": "Report Types",
+      "dmca": {"title": "DMCA Takedown Notice", "desc": "Report copyright infringement. Include the paste identifier and detailed information about the copyrighted work."},
+      "abuse": {"title": "Abuse Report", "desc": "Report content that violates our Acceptable Use Policy, including illegal, harmful, or inappropriate content."},
+      "general": {"title": "General Support", "desc": "Questions about using our service, technical issues, or general inquiries."},
+      "security": {"title": "Security Issue", "desc": "Report security vulnerabilities, suspicious activity, or potential security threats."},
+      "appeal": {"title": "Policy Appeal", "desc": "Appeal content removal or account restrictions that you believe were made in error."},
+      "response": {
+        "title": "Response Times",
+        "dmca": "DMCA Notices: 24-48 hours",
+        "abuse": "Abuse Reports: 24-48 hours",
+        "security": "Security Issues: 12-24 hours",
+        "general": "General Support: 48-72 hours",
+        "appeal": "Policy Appeals: 5-7 business days"
+      },
+      "quick": {
+        "title": "Quick Links",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "dmca": "DMCA Policy",
+        "acceptable_use": "Acceptable Use Policy",
+        "no_logs": "No Logs Policy",
+        "philosophy": "Our Philosophy"
+      },
+      "contact": {
+        "title": "Direct Contact",
+        "general_label": "General Support:"
+      }
+    }
+  },
+  "legal": {
+    "common": { "last_updated": "Last updated:" },
+    "terms": {
+      "title": "Terms of Service",
+      "banner_title": "Fundamental Privacy Rights"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "banner_title": "Privacy as a Fundamental Human Right"
+    },
+    "how": {
+      "title": "How DailyForever Works",
+      "doc_title": "How DailyForever Works - DailyForever",
+      "subtitle": "A comprehensive technical overview of our zero-knowledge encryption system and data protection mechanisms.",
+      "toc": {
+        "title": "Table of Contents",
+        "threat_model": "1. Threat Model & Assumptions",
+        "lifecycle": "2. Paste & File Lifecycle",
+        "overview": "3. System Overview",
+        "encryption_process": "4. Encryption Process",
+        "enc_diagram": "4.1 Encryption & Upload Diagram",
+        "encrypted_data_format": "5. Encrypted Data Format",
+        "key_management": "6. Key Management",
+        "prekeys": "6.1 Post-Quantum Prekeys (/prekeys)",
+        "data_flow": "7. Data Flow Architecture",
+        "dec_diagram": "7.1 Decryption & View Diagram",
+        "password_gate": "7.2 Password Gate & Rate Limiting",
+        "retention": "7.3 Storage, Expiry & Deletion",
+        "security_features": "8. Security Features",
+        "zk_proofs": "9. Zero‑Knowledge Encryption Proofs",
+        "technical_specifications": "10. Technical Specifications",
+        "privacy_guarantees": "11. Privacy Guarantees",
+        "srp_authentication": "12. Zero‑Knowledge Authentication (SRP‑6a)",
+        "srp_sequence": "13. SRP Login Sequence Diagram",
+        "best_practices": "14. Security Best Practices",
+        "technical_references": "15. Technical References"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "banner_title": "Privacy-First Design Philosophy",
+      "still": {
+        "title": "Still Have Questions?",
+        "support_center": "Support Center"
+      }
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "banner_title": "Privacy and Encryption as Universal Human Rights"
+    },
+    "transparency": {
+      "title": "Transparency Report",
+      "banner_title": "Our Commitment to Transparency"
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "🍪 Cookie Consent",
+      "desc": "We use essential cookies to ensure our website functions properly and analytics cookies to help us improve your experience. By clicking \"Accept All\", you consent to our use of cookies. You can customize your preferences or learn more in our Privacy Policy."
+    },
+    "buttons": { "customize": "Customize", "necessary_only": "Necessary Only", "accept_all": "Accept All" },
+    "modal": {
+      "title": "Cookie Preferences",
+      "essential": { "title": "Essential Cookies", "desc": "Required for basic website functionality" },
+      "always_active": "Always Active",
+      "analytics": { "title": "Analytics Cookies", "desc": "Help us understand how visitors interact with our website" },
+      "marketing": { "title": "Marketing Cookies", "desc": "Used to track visitors across websites for advertising purposes" },
+      "save": "Save Preferences"
+    }
+  },
+  "backup": {
+    "title": "Save Your Backup Code",
+    "subtitle": "This is your backup code. Save it in a safe place - you can use it to log in if you forget your PIN.",
+    "label": "Backup Code:",
+    "label_plain": "Backup Code:",
+    "important": "Important:",
+    "note": "This code will change every time you log in. Make sure to save it in a secure location like a password manager.",
+    "download_txt": "Download as Text",
+    "saved": "I've Saved It",
+    "file": {
+      "header": "DailyForever Backup Code",
+      "generated": "Generated:",
+      "important": "Important:",
+      "note": "This code will change every time you log in. Save it in a secure location like a password manager.",
+      "usage": "You can use this code to log in if you forget your PIN."
+    }
+  ,
+  "admin": {
+    "dashboard": {
+      "title": "Admin Command Center",
+      "doc_title": "Admin Dashboard - DailyForever",
+      "subtitle": "Monitor platform health, enforce policy, and manage DailyForever content in real time.",
+      "buttons": {
+        "analytics": "Analytics",
+        "manage_users": "Manage Users",
+        "manage_pastes": "Manage Pastes",
+        "manage_files": "Manage Files",
+        "support_reports": "Support Reports",
+        "manage_posts": "Manage Posts"
+      },
+      "stats": {
+        "total_pastes": "Total Pastes",
+        "today": "today",
+        "removed_pastes": "Removed Pastes",
+        "active": "active",
+        "storage_used": "Storage Used",
+        "across": "Across",
+        "files": "files",
+        "user_security": "User Security",
+        "twofa": "2FA:"
+      },
+      "activity": { "title": "Pastes Created (7 days)", "utc": "UTC time" },
+      "flagged": {
+        "title": "Recently Flagged",
+        "subtitle": "Auto-removed or admin takedown",
+        "reason_label": "Reason:",
+        "owner_label": "Owner:",
+        "empty": "No flagged pastes. 🎉"
+      },
+      "inputs": {
+        "reason_placeholder": "Reason",
+        "limit_placeholder": "Limit"
+      },
+      "controls": {
+        "set": "Set",
+        "update": "Update",
+        "takedown": "Takedown",
+        "apply": "Apply",
+        "manage": "Manage"
+      },
+      "newest": {
+        "title": "Newest Pastes",
+        "subtitle": "Last 6 submissions",
+        "th": {
+          "identifier": "Identifier",
+          "owner": "Owner",
+          "views": "Views",
+          "limit": "Limit",
+          "created": "Created",
+          "moderation": "Moderation"
+        }
+      },
+      "labels": { "removed": "Removed" },
+      "side": {
+        "top_pastes": { "title": "Top Pastes by Views", "empty": "No data available." },
+        "latest_files": { "title": "Latest Files", "empty": "No recent uploads." }
+      },
+      "editorial": {
+        "title": "Editorial",
+        "view_all": "View all",
+        "published": "Published",
+        "draft": "Draft",
+        "empty": "No posts yet."
+      }
+    },
+    "files": {
+      "index": {
+        "title": "Files",
+        "doc_title": "Manage Files - DailyForever",
+        "th": {
+          "id": "ID",
+          "owner": "Owner",
+          "filename": "Filename",
+          "size": "Size",
+          "views": "Views",
+          "limit": "Limit",
+          "private": "Private"
+        },
+        "guest": "guest",
+        "buttons": { "set": "Set", "delete": "Delete" },
+        "limit_placeholder": "Limit",
+        "confirm_delete": "Delete this file?"
+      }
+    },
+    "analytics": {
+      "title": "Analytics Dashboard",
+      "doc_title": "Analytics - Admin Dashboard",
+      "subtitle": "Website performance and user activity insights",
+      "data_range": "Data Range",
+      "buttons": { "export": "Export Data" },
+      "cards": {
+        "total_pastes": "Total Pastes",
+        "total_files": "Total Files",
+        "total_users": "Total Users",
+        "total_views": "Total Views",
+        "this_month": "this month",
+        "stored": "stored"
+      },
+      "charts": {
+        "daily": "Daily Activity (Last 30 Days)",
+        "hourly": "Hourly Activity (Last 24 Hours)"
+      },
+      "sections": {
+        "content": {
+          "title": "Content Statistics",
+          "private_pastes": "Private Pastes",
+          "public_pastes": "Public Pastes",
+          "password_protected": "Password Protected",
+          "expired_pastes": "Expired Pastes",
+          "with_view_limits": "With View Limits"
+        },
+        "user": {
+          "title": "User Statistics",
+          "active_users": "Active Users",
+          "users_with_pastes": "Users with Pastes",
+          "users_with_files": "Users with Files",
+          "avg_pastes": "Avg Pastes/User",
+          "avg_files": "Avg Files/User"
+        },
+        "storage": { "title": "Storage by File Type" }
+      },
+      "top": { "pastes": "Top Pastes by Views", "files": "Top Files by Downloads" },
+      "recent_users": "Recent Users",
+      "empty": { "pastes": "No pastes found", "files": "No files found", "users": "No users found" }
+    },
+    "users": {
+      "index": {
+        "title": "User Management",
+        "doc_title": "User Management - Admin Dashboard",
+        "subtitle": "Manage users, permissions, and account status",
+        "notice": {
+          "title": "Privacy Notice",
+          "text": "Administrative access is limited to account metadata only. We cannot access encrypted content due to our zero-knowledge architecture. All administrative actions are logged for audit purposes."
+        },
+        "stats": {
+          "total_users": "Total Users",
+          "admin_users": "Admin Users",
+          "two_factor_enabled": "2FA Enabled",
+          "new_today": "New Today"
+        },
+        "filters": {
+          "search": "Search",
+          "search_placeholder": "Username or name",
+          "admin_status": "Admin Status",
+          "all_users": "All Users",
+          "admins_only": "Admins Only",
+          "regular_users": "Regular Users",
+          "two_factor_status": "2FA Status",
+          "twofa_enabled": "2FA Enabled",
+          "twofa_disabled": "2FA Disabled"
+        },
+        "buttons": { "filter": "Filter", "activity": "Activity" },
+        "th": { "user": "User", "status": "Status", "activity": "Activity", "joined": "Joined", "actions": "Actions" },
+        "badges": { "admin": "Admin", "twofa": "2FA", "suspended": "Suspended" },
+        "activity": { "pastes": "pastes", "files": "files" },
+        "empty": "No users found matching your criteria."
+      }
+    },
+    "pastes": {
+      "index": {
+        "title": "Manage Pastes",
+        "doc_title": "Manage Pastes - DailyForever Admin",
+        "subtitle": "Search, filter, and moderate submitted pastes.",
+        "stats": { "active": "Active", "removed": "Removed", "private": "Private", "public": "Public" },
+        "filters": {
+          "search": "Search",
+          "search_placeholder": "Identifier or username",
+          "status": "Status",
+          "privacy": "Privacy",
+          "any": "Any",
+          "active": "Active",
+          "removed": "Removed",
+          "public": "Public",
+          "private": "Private"
+        },
+        "buttons": { "reset": "Reset", "apply_filters": "Apply Filters" },
+        "th": {
+          "identifier": "Identifier",
+          "owner": "Owner",
+          "status": "Status",
+          "privacy": "Privacy",
+          "views_limit": "Views / Limit",
+          "created": "Created",
+          "actions": "Actions"
+        },
+        "status": { "active": "Active", "removed": "Removed" },
+        "privacy": { "public": "Public", "private": "Private" },
+        "reason_none": "No reason provided",
+        "empty": "No pastes match your filters."
+      }
+    },
+    "posts": {
+      "index": {
+        "title": "Posts",
+        "doc_title": "Manage Posts - DailyForever",
+        "new_post": "New Post",
+        "th": { "title": "Title", "slug": "Slug", "status": "Status", "updated": "Updated" },
+        "status": { "published": "Published", "draft": "Draft" }
+      }
+    },
+    "support": {
+      "index": {
+        "title": "Support Reports",
+        "doc_title": "Support Reports - Admin Dashboard",
+        "back": "← Back to Dashboard",
+        "stats": {
+          "total": "Total Reports",
+          "pending": "Pending",
+          "resolved": "Resolved",
+          "dmca": "DMCA",
+          "abuse": "Abuse",
+          "security": "Security"
+        },
+        "filters": {
+          "type": "Type",
+          "all_types": "All Types",
+          "dmca": "DMCA",
+          "abuse": "Abuse",
+          "general": "General",
+          "security": "Security",
+          "appeal": "Appeal",
+          "status": "Status",
+          "all_statuses": "All Statuses",
+          "pending": "Pending",
+          "in_progress": "In Progress",
+          "resolved": "Resolved",
+          "closed": "Closed",
+          "search": "Search",
+          "search_placeholder": "Subject, email, or identifier..."
+        },
+        "buttons": { "filter": "Filter", "clear": "Clear" },
+        "th": { "id": "ID", "type": "Type", "subject": "Subject", "status": "Status", "email": "Email", "created": "Created", "actions": "Actions" },
+        "empty": "No support reports found."
+      },
+      "show": {
+        "doc_title": "Support Report - Admin Dashboard",
+        "title": "Support Report",
+        "back": "← Back to Reports",
+        "details": {
+          "title": "Report Details",
+          "subject": "Subject",
+          "description": "Description",
+          "paste_identifier": "Paste Identifier",
+          "view_paste": "View Paste",
+          "violation_type": "Violation Type",
+          "copyrighted_work": "Copyrighted Work",
+          "authorization": "Authorization",
+          "contact_info": "Contact Information"
+        },
+        "notes": { "title": "Admin Notes", "empty": "No admin notes yet." },
+        "manage": {
+          "title": "Manage Report",
+          "status": "Status",
+          "options": { "pending": "Pending", "in_progress": "In Progress", "resolved": "Resolved", "closed": "Closed" },
+          "notes": "Admin Notes",
+          "notes_placeholder": "Add notes about this report...",
+          "update": "Update Report"
+        },
+        "info": {
+          "title": "Report Information",
+          "id": "Report ID:",
+          "type": "Type:",
+          "status": "Status:",
+          "created": "Created:",
+          "resolved": "Resolved:",
+          "resolved_by": "Resolved by:",
+          "email": "Email:"
+        },
+        "quick": {
+          "title": "Quick Actions",
+          "view_paste": "View Related Paste",
+          "reply_email": "Reply via Email",
+          "search_pastes": "Search Pastes"
+        }
+      }
+    }
+  }
+}
+}
